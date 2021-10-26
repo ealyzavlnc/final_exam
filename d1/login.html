@@ -1,0 +1,54 @@
+<form action="action_page.php" method="post">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Marck+Script&family=Nunito:ital,wght@1,700&family=Quicksand:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+<style type="text/css">
+    * {
+      margin: 10px;
+    }
+    h1{
+      font-size: 35px;
+      font-family: 'Roboto Slab', serif;
+    }
+    .container{
+      font-family: 'Roboto Slab', serif;
+      font-size: 30px;    
+    }
+    input{
+      display: block;
+      margin: 10px;
+      width: 99%;
+      height: 50px;
+    }
+
+    button {
+      font-family: 'Roboto Slab', serif;
+      font-weight: bold;
+      width: 100px;
+      background: black;
+      color: white;
+      font-size: 20px;
+    }
+    a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    }
+  </style>
+  <div class="TITLE">
+    <h1>Please log in.</h1>
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>

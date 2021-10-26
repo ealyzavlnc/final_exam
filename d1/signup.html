@@ -1,0 +1,53 @@
+<form action="action_page.php" style="border:1px solid #ccc">
+  <title>Sign Up</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Marck+Script&family=Nunito:ital,wght@1,700&family=Quicksand:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+  
+  <style type="text/css">
+    * {
+      margin: 10px;
+    }
+    .container{
+      font-family: 'Roboto Slab', serif;
+      font-size: 30px;    
+    }
+    input{
+      display: block;
+      margin: 10px;
+      width: 99%;
+      height: 50px;
+    }
+
+    button {
+      font-family: 'Roboto Slab', serif;
+      font-weight: bold;
+      width: 100px;
+      background: black;
+      color: white;
+      font-size: 20px;
+    }
+  </style>
+
+  <div class="container">
+
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <div class="clearfix">
+      <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
